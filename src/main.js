@@ -45,7 +45,6 @@ if ( queryParams ) {
     }).catch((error) => {
         console.error(error);
         alert(error);
-        startApp({ status: 'ready', plan: {}, plans_data: [] });
     });
 } else {
     startApp({});
